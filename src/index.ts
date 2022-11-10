@@ -1,4 +1,4 @@
-import * as tokenList from '../tokens.json';
+import * as tokenList from './tokens.json';
 export class TokenList {
   chainId: number;
   constructor(chainId: number) {
