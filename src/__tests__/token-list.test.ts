@@ -15,3 +15,7 @@ test('goerli tokens', () => {
 test('goerli ape token', () => {
   expect(new TokenList(5).token('APE').symbol === 'APE');
 });
+
+test('icon', () => {
+  expect(new TokenList(1).icon().length > 0);
+});
