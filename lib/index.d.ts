@@ -3,5 +3,4 @@ export declare class TokenList {
     constructor(chainId: number);
     tokens(): any;
     token(addressOrSymbol: string): any;
-    icon(): string;
 }
