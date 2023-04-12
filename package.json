@@ -10,9 +10,24 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json"
   },
-  "keywords": [],
+  "homepage": "https://defund.io",
+  "bugs": "https://github.com/DeFund-protocol/token-list/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeFund-protocol/token-list.git"
+  },
+  "keywords": [
+    "DeFund",
+    "DeFund protocol",
+    "defund",
+    "DeFi",
+    "Ethereum",
+    "fund",
+    "web3",
+    "ethers"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.2.2",
     "jest": "^29.3.1",
